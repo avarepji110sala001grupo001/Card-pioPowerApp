@@ -1,0 +1,62 @@
+"CAPA As screen.'tabletAutoLayout_SplitScreen_ver1.0'":
+    Fill: =RGBA(255, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(98, 100, 167, 1)
+
+    Image4 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =718
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =Imagem2
+        OnSelect: =
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        RadiusBottomLeft: =3
+        RadiusBottomRight: =3
+        RadiusTopLeft: =3
+        RadiusTopRight: =3
+        Width: =1282
+        X: =42
+        Y: =6
+        ZIndex: =2
+
+    Label1 As Rótulo:
+        Alignment: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =36
+        Height: =152
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="BEM VINDO"
+        Width: =404
+        X: =481
+        Y: =274
+        ZIndex: =3
+
+    Button1 As Botão:
+        Alignment: =Align.Center
+        BorderColor: =RGBA(184, 0, 0, 1)
+        ButtonType: =
+        DisabledBorderColor: =RGBA(255, 0, 0, 1)
+        DisplayMode: =DisplayMode.Edit
+        FillColor: =RGBA(255, 0, 0, 1)
+        Font: =Font.'Lato Black'
+        FontSize: =28
+        Height: =85
+        HoverBorderColor: =RGBA(118, 0, 0, 1)
+        HoverFillColor: =RGBA(184, 0, 0, 1)
+        OnSelect: =Navigate(MENU,ScreenTransition.Fade)
+        PCFTeamsTheme: =TeamsTheme.Default
+        PressedBorderColor: =RGBA(184, 0, 0, 1)
+        PressedFillColor: =RGBA(118, 0, 0, 1)
+        Text: ="MENU   "
+        Width: =229
+        X: =568
+        Y: =441
+        ZIndex: =4
+

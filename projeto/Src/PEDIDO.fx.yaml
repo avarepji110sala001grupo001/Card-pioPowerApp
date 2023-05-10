@@ -1,0 +1,173 @@
+PEDIDO As screen:
+    Fill: =RGBA(255, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(98, 100, 167, 1)
+    OnVisible: =
+
+    Gallery6 As gallery.BrowseLayout_Vertical_TwoTextVariant_pcfCore:
+        BorderColor: =RGBA(243, 242, 241, 1)
+        DelayItemLoading: =true
+        FocusedBorderColor: =RGBA(98, 100, 167, 1)
+        FocusedBorderThickness: =2
+        Height: =539
+        Items: =ColectionProduto
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =127
+        Width: =677
+        X: =174
+        Y: =139
+        ZIndex: =1
+
+        Rectangle12 As rectangle:
+            BorderColor: =RGBA(243, 242, 241, 1)
+            DisabledFill: =RGBA(0,0,0,0)
+            Fill: =RGBA(0,0,0,0)
+            FocusedBorderColor: =RGBA(98, 100, 167, 1)
+            Height: =Parent.TemplateHeight
+            HoverFill: =RGBA(0,0,0,0)
+            OnSelect: =Select(Parent)
+            PressedFill: =RGBA(0,0,0,0)
+            TabIndex: =0
+            Width: =Parent.TemplateWidth
+            ZIndex: =1
+
+        Title13 As Rótulo:
+            DisplayMode: =DisplayMode.Edit
+            FontSize: =30
+            FontWeight: =FontWeight.Semibold
+            Height: =73
+            OnSelect: =Select(Parent)
+            PCFTeamsTheme: =TeamsTheme.Default
+            TabIndex: =-1
+            Text: =ThisItem.Produto
+            VerticalAlignment: =VerticalAlign.Top
+            Width: =373
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+        Subtitle10 As Rótulo:
+            DisplayMode: =DisplayMode.Edit
+            FontSize: =30
+            FontWeight: =FontWeight.Normal
+            Height: =56
+            OnSelect: =Select(Parent)
+            PCFTeamsTheme: =TeamsTheme.Default
+            TabIndex: =-1
+            Text: =Text(ThisItem.Valor,"0.00")
+            VerticalAlignment: =VerticalAlign.Top
+            Width: =156
+            X: =373
+            Y: =5
+            ZIndex: =3
+
+        Icon3 As icon.Trash:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(98, 100, 167, 1)
+            DisabledBorderColor: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(255, 255, 255, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            HoverBorderColor: =RGBA(255, 255, 255, 1)
+            HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+            HoverFill: =RGBA(255, 255, 255, 1)
+            Icon: =Icon.Trash
+            OnSelect: |-
+                =Remove(
+                    ColectionProduto,ThisItem)
+            PaddingBottom: =3
+            PaddingLeft: =3
+            PaddingRight: =3
+            PaddingTop: =3
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =62
+            X: =566
+            Y: =11
+            ZIndex: =4
+
+    Icon4_4 As icon.ArrowLeft:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =80
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Navigate(MENU,ScreenTransition.Fade)
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =75
+        X: =30
+        Y: =660
+        ZIndex: =2
+
+    Image2 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =159
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =LOGO
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        RadiusBottomLeft: =3
+        RadiusBottomRight: =3
+        RadiusTopLeft: =3
+        RadiusTopRight: =3
+        Width: =417
+        X: =470
+        ZIndex: =3
+
+    Label5 As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =81
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="TOTAL R$"
+        Width: =192
+        X: =240
+        Y: =687
+        ZIndex: =4
+
+    "TextBox1 As 'Caixa de texto'":
+        ColorBackground: =RGBA(255, 0, 0, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =82
+        PCFTeamsTheme: =TeamsTheme.Default
+        Value: |-
+            =Text(Sum(
+                ColectionProduto,Valor),"0.00")
+        Width: =188
+        X: =584
+        Y: =678
+        ZIndex: =5
+
+    Button3 As Botão:
+        ButtonType: |
+            =
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =20
+        Height: =80
+        OnSelect: =SaveData('NUMEROS 1',teste)
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="FINALIZAR PEDIDO"
+        Width: =253
+        X: =1057
+        Y: =660
+        ZIndex: =6
+

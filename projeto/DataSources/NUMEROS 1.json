@@ -1,0 +1,93 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crc3a_numeros1s",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crc3a_numeros1",
+    "MaxGetRowsCount": 500,
+    "Name": "NUMEROS 1",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "crc3a_nome": "Nome",
+      "crc3a_numeros1_AsyncOperations": "Trabalhos do Sistema",
+      "crc3a_numeros1_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "crc3a_numeros1_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "crc3a_numeros1_ProcessSession": "Sessões de Processo",
+      "crc3a_numeros1id": "NUMEROS 1",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "NUMEROS 1",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "NUMEROS 1 (Modos de exibição)",
+    "Name": "_crc3a_numeros1_views",
+    "RelatedEntityName": "NUMEROS 1",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "640650c1-5122-4f5f-8184-d1fd7ddd0f83": "NUMEROS 1 Inativos(as)",
+      "c1e7c16c-c524-4cad-8ecf-6a77ee8ba4df": "NUMEROS 1 Ativos(as)",
+      "c805a9ec-0b44-4a7f-8387-0e3e7cf5fb0b": "Exibição de Localização Avançada de NUMEROS 1",
+      "e4da23e0-9e77-406e-a93d-ab0e829e06a0": "Exibição de Consulta de NUMEROS 1",
+      "e6e67943-5098-446f-bc7a-8d12efe218b3": "Exibição Associada de NUMEROS 1"
+    }
+  },
+  {
+    "DisplayName": "Status (NUMEROS 1)",
+    "Name": "crc3a_numeros1_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "NUMEROS 1"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "NUMEROS 1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (NUMEROS 1)",
+    "Name": "crc3a_numeros1_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "NUMEROS 1"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "NUMEROS 1",
+    "Type": "OptionSetInfo"
+  }
+]

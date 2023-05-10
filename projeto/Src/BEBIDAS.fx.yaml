@@ -1,0 +1,770 @@
+BEBIDAS As screen:
+    Fill: =RGBA(255, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(98, 100, 167, 1)
+
+    Label2 As Rótulo:
+        Alignment: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =40
+        Height: =71
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="BEBIDAS"
+        Width: =454
+        X: =460
+        Y: =16
+        ZIndex: =1
+
+    Label4 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =25
+        Height: =53
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="CERVEJAS (600ml)"
+        Width: =320
+        X: =42
+        Y: =120
+        ZIndex: =2
+
+    Label4_1 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =25
+        Height: =66
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="REFRIGERANTES (600ml)"
+        Width: =406
+        X: =484
+        Y: =120
+        ZIndex: =3
+
+    Label4_2 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =25
+        Height: =53
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="SUCOS (JARRA 500ml)"
+        Width: =349
+        X: =998
+        Y: =120
+        ZIndex: =4
+
+    Label4_3 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =65
+        OnSelect: =
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="HEINEKEN"
+        Width: =159
+        X: =42
+        Y: =224
+        ZIndex: =5
+
+    Icon1_13 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Heineken 600ml",Valor:17})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =56
+        X: =326
+        Y: =229
+        ZIndex: =6
+
+    Label4_4 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =59
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="17,00"
+        Width: =107
+        X: =201
+        Y: =229
+        ZIndex: =7
+
+    Label4_5 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =65
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="BOHEMIA"
+        Width: =159
+        X: =42
+        Y: =307
+        ZIndex: =8
+
+    Icon1_14 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Bohemia 600ml",Valor:15})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =56
+        X: =326
+        Y: =312
+        ZIndex: =9
+
+    Label4_6 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =59
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="15,00"
+        Width: =107
+        X: =201
+        Y: =312
+        ZIndex: =10
+
+    Label4_7 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =65
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="AMSTEL"
+        Width: =159
+        X: =42
+        Y: =390
+        ZIndex: =11
+
+    Icon1_15 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Amstel 600ml",Valor:13})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =56
+        X: =326
+        Y: =395
+        ZIndex: =12
+
+    Label4_8 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =59
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="13,00"
+        Width: =107
+        X: =201
+        Y: =395
+        ZIndex: =13
+
+    Label4_9 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =65
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="ORIGINAL"
+        Width: =159
+        X: =42
+        Y: =455
+        ZIndex: =14
+
+    Icon1_16 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Original 600ml",Valor:15})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =56
+        X: =326
+        Y: =460
+        ZIndex: =15
+
+    Label4_10 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =59
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="15,00"
+        Width: =107
+        X: =201
+        Y: =460
+        ZIndex: =16
+
+    Label4_11 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =65
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="CORONA"
+        Width: =159
+        X: =42
+        Y: =539
+        ZIndex: =17
+
+    Icon1_17 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Corona 600ml",Valor:19})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =56
+        X: =326
+        Y: =544
+        ZIndex: =18
+
+    Label4_12 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =59
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="19,00"
+        Width: =107
+        X: =201
+        Y: =544
+        ZIndex: =19
+
+    Label4_13 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =65
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="COCA COLA"
+        Width: =159
+        X: =508
+        Y: =232
+        ZIndex: =20
+
+    Icon1_18 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Coca Cola 600ml",Valor:10})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =56
+        X: =792
+        Y: =237
+        ZIndex: =21
+
+    Label4_14 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =59
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="10,00"
+        Width: =107
+        X: =685
+        Y: =235
+        ZIndex: =22
+
+    Label4_15 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =65
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="FANTA"
+        Width: =159
+        X: =508
+        Y: =315
+        ZIndex: =23
+
+    Icon1_19 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Fanta 600ml",Valor:9})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =56
+        X: =792
+        Y: =320
+        ZIndex: =24
+
+    Label4_16 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =59
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="9,00"
+        Width: =107
+        X: =667
+        Y: =320
+        ZIndex: =25
+
+    Label4_17 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =68
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="GUARANÁ"
+        Width: =177
+        X: =508
+        Y: =395
+        ZIndex: =26
+
+    Icon1_20 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Guaraná 600ml",Valor:9})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =56
+        X: =792
+        Y: =403
+        ZIndex: =27
+
+    Label4_18 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =59
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="9,00"
+        Width: =107
+        X: =685
+        Y: =403
+        ZIndex: =28
+
+    Label4_19 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =65
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="SPRITE"
+        Width: =159
+        X: =508
+        Y: =463
+        ZIndex: =29
+
+    Icon1_21 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Sprite 600ml",Valor:9})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =56
+        X: =792
+        Y: =468
+        ZIndex: =30
+
+    Label4_20 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =59
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="9,00"
+        Width: =107
+        X: =667
+        Y: =468
+        ZIndex: =31
+
+    Label4_21 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =65
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="SCHWEPPES"
+        Width: =159
+        X: =508
+        Y: =547
+        ZIndex: =32
+
+    Icon1_22 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Schweppes 600ml",Valor:12})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =56
+        X: =792
+        Y: =552
+        ZIndex: =33
+
+    Label4_22 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =59
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="12,00"
+        Width: =107
+        X: =685
+        Y: =552
+        ZIndex: =34
+
+    Label4_23 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =65
+        OnSelect: =
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="LARANJA"
+        Width: =159
+        X: =983
+        Y: =247
+        ZIndex: =35
+
+    Icon1_23 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Suco Laranja",Valor:15})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =56
+        X: =1267
+        Y: =252
+        ZIndex: =36
+
+    Label4_24 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =59
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="15,00"
+        Width: =107
+        X: =1142
+        Y: =252
+        ZIndex: =37
+
+    Label4_25 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =65
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="MARACUJÁ"
+        Width: =159
+        X: =983
+        Y: =330
+        ZIndex: =38
+
+    Icon1_24 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Suco Maracujá",Valor:15})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =56
+        X: =1267
+        Y: =335
+        ZIndex: =39
+
+    Label4_26 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =59
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="15,00"
+        Width: =107
+        X: =1142
+        Y: =335
+        ZIndex: =40
+
+    Label4_27 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =65
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="MORANGO"
+        Width: =159
+        X: =983
+        Y: =413
+        ZIndex: =41
+
+    Icon1_25 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Suco Morango",Valor:13})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =56
+        X: =1267
+        Y: =418
+        ZIndex: =42
+
+    Label4_28 As Rótulo:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =20
+        Height: =59
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="13,00"
+        Width: =107
+        X: =1142
+        Y: =418
+        ZIndex: =43
+
+    Icon4 As icon.ArrowLeft:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =80
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Navigate(MENU,ScreenTransition.Fade)
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =75
+        X: =30
+        Y: =660
+        ZIndex: =44
+
+    Icon1_28 As icon.DetailList:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =77
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.DetailList
+        OnSelect: =Navigate(PEDIDO,ScreenTransition.CoverRight)
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =89
+        X: =1250
+        Y: =659
+        ZIndex: =45
+

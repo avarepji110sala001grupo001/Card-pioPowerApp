@@ -1,0 +1,65 @@
+Screen1 As screen:
+    LoadingSpinnerColor: =RGBA(98, 100, 167, 1)
+
+    DataTable1 As dataTable.datatable:
+        BorderColor: =RGBA(243, 242, 241, 1)
+        BorderStyle: =BorderStyle.Solid
+        Color: =RGBA(37, 36, 35, 1)
+        DisabledColor: =RGBA(200, 198, 196, 1)
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Normal
+        HeadingColor: =RGBA(255, 255, 255, 1)
+        HeadingFill: =RGBA(98, 100, 167, 1)
+        HeadingFont: =Font.'Segoe UI'
+        HeadingFontWeight: =FontWeight.Normal
+        HeadingSize: =10.5
+        Height: =295
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(98, 100, 167, 1)
+        InputFill: =RGBA(243, 242, 241, 1)
+        InvertedColor: =RGBA(255, 255, 255, 1)
+        Items: =ColectionProduto
+        LinkColor: =RGBA(0, 134, 208, 1)
+        PrimaryColor1: =RGBA(98, 100, 167, 1)
+        PrimaryColor2: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PrimaryColor3: =ColorFade(RGBA(98, 100, 167, 1), -50%)
+        SelectedColor: =RGBA(37, 36, 35, 1)
+        SelectedFill: =RGBA(98, 100, 167, .2)
+        Size: =10.5
+        Width: =433
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+        Produto_Column1 As dataTableColumn.textualColumn:
+            AutoWidth: =false
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Produto"
+            FieldName: ="Produto"
+            FieldVariantName: ="textualColumn"
+            Height: =295
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.Produto
+            Width: =213
+            X: =164
+            Y: =0
+            ZIndex: =1
+
+        Valor_Column2 As dataTableColumn.textualColumn:
+            AutoWidth: =false
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Valor"
+            FieldName: ="Valor"
+            FieldVariantName: ="textualColumn"
+            Height: =709
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =Text(ThisItem.Valor,"0.00")
+            Width: =236
+            X: =197
+            Y: =-414
+            ZIndex: =2
+

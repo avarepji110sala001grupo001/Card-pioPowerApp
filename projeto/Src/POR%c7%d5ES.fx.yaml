@@ -1,0 +1,284 @@
+PORÇÕES As screen:
+    Fill: =RGBA(255, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(98, 100, 167, 1)
+
+    Icon1_1 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =94
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Porção de Picanha",Valor:109})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =104
+        X: =1038
+        Y: =243
+        ZIndex: =2
+
+    Icon1_2 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =94
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Porção de Linguiça",Valor:79})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =104
+        X: =1038
+        Y: =444
+        ZIndex: =3
+
+    Icon1_3 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =94
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Porção de Batata",Valor:59})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =104
+        X: =1038
+        Y: =642
+        ZIndex: =4
+
+    Label3 As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =20
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="500g de Alcatra, acompanha pão, batata e farofa."
+        Width: =547
+        X: =280
+        Y: =79
+        ZIndex: =6
+
+    "'PREÇO ALCATRA' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =89
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="79,00"
+        Width: =211
+        X: =827
+        Y: =8
+        ZIndex: =7
+
+    PICANHA As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =96
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="PORÇÃO DE PICANHA"
+        Width: =410
+        X: =280
+        Y: =185
+        ZIndex: =8
+
+    Label3_1 As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =20
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="500g de Picanha, acompanha pão, batata e farofa."
+        Width: =547
+        X: =280
+        Y: =261
+        ZIndex: =9
+
+    "'PREÇO PICANHA' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="109,00"
+        Width: =211
+        X: =827
+        Y: =224
+        ZIndex: =10
+
+    LINGUIÇA As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =96
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="PORÇÃO DE LINGUIÇA"
+        Width: =410
+        X: =280
+        Y: =395
+        ZIndex: =11
+
+    Label3_2 As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =20
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="500g de Linguiça, acompanha pão, batata e farofa."
+        Width: =547
+        X: =280
+        Y: =476
+        ZIndex: =12
+
+    "'PREÇO LINGUIÇA' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="69,00"
+        Width: =211
+        X: =827
+        Y: =433
+        ZIndex: =13
+
+    "'PREÇO BATATA' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="59,00"
+        Width: =211
+        X: =827
+        Y: =621
+        ZIndex: =14
+
+    BATATA As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =96
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="PORÇÃO DE BATATA"
+        Width: =410
+        X: =280
+        Y: =582
+        ZIndex: =15
+
+    Label3_3 As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =20
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="400g de batatas fritas, cobertas com queijo e bacon"
+        Width: =547
+        X: =280
+        Y: =649
+        ZIndex: =16
+
+    ALCATRA As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =96
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="PORÇÃO DE PICANHA"
+        Width: =410
+        X: =280
+        Y: =1
+        ZIndex: =17
+
+    Icon1_4 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =94
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Porção de Alcatra",Valor:79})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =104
+        X: =1038
+        Y: =35
+        ZIndex: =18
+
+    Icon4_3 As icon.ArrowLeft:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =80
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Navigate(MENU,ScreenTransition.Fade)
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =75
+        X: =30
+        Y: =660
+        ZIndex: =19
+
+    Icon1 As icon.DetailList:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =77
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.DetailList
+        OnSelect: =Navigate(PEDIDO,ScreenTransition.CoverRight)
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =89
+        X: =1250
+        Y: =659
+        ZIndex: =20
+

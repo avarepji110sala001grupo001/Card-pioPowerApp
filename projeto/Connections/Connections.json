@@ -1,0 +1,27 @@
+{
+  "720d4d7a-0107-4593-9edf-b2306a97a50c": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://alunounivespbr.sharepoint.com/sites/ProjetoIntegradorI186": {
+        "dataSources": {
+          "ListaPedidos": {
+            "tableName": "84578914-0917-4753-86f4-bd5f3bc2671f"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "ListaPedidos"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "720d4d7a-0107-4593-9edf-b2306a97a50c"
+  }
+}

@@ -1,0 +1,284 @@
+SOBREMESAS As screen:
+    Fill: =RGBA(255, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(98, 100, 167, 1)
+
+    Icon1_10 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =89
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Bolo de Chocolate",Valor:13})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =76
+        X: =1038
+        Y: =221
+        ZIndex: =2
+
+    Icon1_11 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =100
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Petit Gateaut",Valor:19})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =76
+        X: =1038
+        Y: =419
+        ZIndex: =3
+
+    Icon1_12 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =87
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Torta Holandesa",Valor:17})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =76
+        X: =1038
+        Y: =621
+        ZIndex: =4
+
+    Label3_8 As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =20
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="Fatia de Pudim de Leite Condensado"
+        Width: =547
+        X: =280
+        Y: =79
+        ZIndex: =6
+
+    "'PREÇO PUDIM' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =89
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="12,00"
+        Width: =211
+        X: =827
+        Y: =8
+        ZIndex: =7
+
+    "'BOLO CHOC' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =96
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="BOLO DE CHOCOLATE"
+        Width: =474
+        X: =280
+        Y: =185
+        ZIndex: =8
+
+    Label3_9 As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =20
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="Fatia de Bolo de Chocolate rechado com doce de leite"
+        Width: =547
+        X: =280
+        Y: =261
+        ZIndex: =9
+
+    "'PREÇO BOLO CHOC' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="13,00"
+        Width: =211
+        X: =827
+        Y: =224
+        ZIndex: =10
+
+    "'PETIT GAT' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =96
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="PETIT GATEAUT"
+        Width: =509
+        X: =280
+        Y: =395
+        ZIndex: =11
+
+    Label3_10 As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =20
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="Petit gateau com uma bola de sorvete de creme"
+        Width: =547
+        X: =280
+        Y: =476
+        ZIndex: =12
+
+    "'PREÇO P GAT' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="19,00"
+        Width: =211
+        X: =827
+        Y: =433
+        ZIndex: =13
+
+    "'PREÇO T HOLAN' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="17,00"
+        Width: =211
+        X: =827
+        Y: =621
+        ZIndex: =14
+
+    "'TORTA HOLANDESA' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =96
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="TORTA HOLANDESA"
+        Width: =593
+        X: =280
+        Y: =582
+        ZIndex: =15
+
+    Label3_11 As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =20
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="Fatia de Torta Holandesa"
+        Width: =547
+        X: =280
+        Y: =649
+        ZIndex: =16
+
+    PUDIM As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =96
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="PUDIM"
+        Width: =410
+        X: =280
+        Y: =1
+        ZIndex: =17
+
+    Icon1_9 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =101
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Pudim",Valor:12})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =76
+        X: =1038
+        Y: =10
+        ZIndex: =18
+
+    Icon4_1 As icon.ArrowLeft:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =80
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Navigate(MENU,ScreenTransition.Fade)
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =75
+        X: =30
+        Y: =660
+        ZIndex: =19
+
+    Icon1_27 As icon.DetailList:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =77
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.DetailList
+        OnSelect: =Navigate(PEDIDO,ScreenTransition.CoverRight)
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =89
+        X: =1250
+        Y: =659
+        ZIndex: =20
+

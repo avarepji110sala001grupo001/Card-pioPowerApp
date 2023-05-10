@@ -1,0 +1,104 @@
+MENU As screen:
+    Fill: =RGBA(255, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(98, 100, 167, 1)
+
+    Image11 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =727
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =Imagem2
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        RadiusBottomLeft: =3
+        RadiusBottomRight: =3
+        RadiusTopLeft: =3
+        RadiusTopRight: =3
+        Width: =1289
+        X: =40
+        ZIndex: =1
+
+    Button2 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        FillColor: =RGBA(255, 0, 0, 1)
+        Font: =Font.'Lato Black'
+        FontSize: =36
+        Height: =92
+        HoverFillColor: =RGBA(184, 0, 0, 1)
+        OnSelect: =Navigate('À  LA CARTE',ScreenTransition.Fade)
+        PCFTeamsTheme: =TeamsTheme.Default
+        PressedFillColor: =RGBA(118, 0, 0, 1)
+        Text: ="À LA CARTE"
+        Width: =307
+        X: =112
+        Y: =316
+        ZIndex: =2
+
+    Button2_1 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        FillColor: =RGBA(255, 0, 0, 1)
+        Font: =Font.'Lato Black'
+        FontSize: =36
+        Height: =92
+        HoverFillColor: =RGBA(184, 0, 0, 1)
+        OnSelect: =Navigate(SOBREMESAS,ScreenTransition.Fade)
+        PCFTeamsTheme: =TeamsTheme.Default
+        PressedFillColor: =RGBA(118, 0, 0, 1)
+        Text: ="SOBREMESA"
+        Width: =307
+        X: =941
+        Y: =526
+        ZIndex: =3
+
+    Button2_2 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        FillColor: =RGBA(255, 0, 0, 1)
+        Font: =Font.'Lato Black'
+        FontSize: =36
+        Height: =92
+        HoverFillColor: =RGBA(184, 0, 0, 1)
+        OnSelect: =Navigate(PORÇÕES,ScreenTransition.Fade)
+        PCFTeamsTheme: =TeamsTheme.Default
+        PressedFillColor: =RGBA(118, 0, 0, 1)
+        Text: ="PORÇÕES"
+        Width: =307
+        X: =102
+        Y: =526
+        ZIndex: =4
+
+    Button2_3 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        FillColor: =RGBA(255, 0, 0, 1)
+        Font: =Font.'Lato Black'
+        FontSize: =36
+        Height: =92
+        HoverFillColor: =RGBA(184, 0, 0, 1)
+        OnSelect: =Navigate(BEBIDAS,ScreenTransition.Fade)
+        PCFTeamsTheme: =TeamsTheme.Default
+        PressedFillColor: =RGBA(118, 0, 0, 1)
+        Text: ="BEBIDAS"
+        Width: =307
+        X: =921
+        Y: =316
+        ZIndex: =5
+
+    Button2_4 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        FillColor: =RGBA(255, 0, 0, 1)
+        Font: =Font.'Lato Black'
+        FontSize: =36
+        Height: =92
+        HoverFillColor: =RGBA(184, 0, 0, 1)
+        OnSelect: =Navigate(PEDIDO,ScreenTransition.Fade)
+        PCFTeamsTheme: =TeamsTheme.Default
+        PressedFillColor: =RGBA(118, 0, 0, 1)
+        Text: ="VER PEDIDOS"
+        Width: =328
+        X: =520
+        Y: =618
+        ZIndex: =6
+

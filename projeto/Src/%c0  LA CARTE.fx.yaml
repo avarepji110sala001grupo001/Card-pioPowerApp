@@ -1,0 +1,284 @@
+"'À  LA CARTE' As screen":
+    Fill: =RGBA(255, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(98, 100, 167, 1)
+
+    Icon1_6 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =89
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Fraldinha ao Molho",Valor:99})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =76
+        X: =1038
+        Y: =221
+        ZIndex: =2
+
+    Icon1_7 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =100
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Contra Filé Parmegiana",Valor:89})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =76
+        X: =1038
+        Y: =419
+        ZIndex: =3
+
+    Icon1_8 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =87
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Lagarto ao Molho",Valor:89})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =76
+        X: =1038
+        Y: =621
+        ZIndex: =4
+
+    Label3_4 As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =20
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="Espeto com 400g de picanha assada, acompanha arroz e farofa e salada (individual)"
+        Width: =547
+        X: =280
+        Y: =79
+        ZIndex: =6
+
+    "'PREÇO PIC ASSADA' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =89
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="109,00"
+        Width: =211
+        X: =827
+        Y: =8
+        ZIndex: =7
+
+    "'FRALDINHA MOLHO' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =96
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="FRALDINHA AO MOLHO"
+        Width: =474
+        X: =280
+        Y: =185
+        ZIndex: =8
+
+    Label3_5 As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =20
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="400g de Fraldinha ao molho gorgonzola, acompanha arroz e salada (individual)."
+        Width: =547
+        X: =280
+        Y: =261
+        ZIndex: =9
+
+    "'PREÇO FRALDINHA' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="99,00"
+        Width: =211
+        X: =827
+        Y: =224
+        ZIndex: =10
+
+    "'CONTRA PARMEG' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =96
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="CONTRA FILÉ PARMEGIANA"
+        Width: =509
+        X: =280
+        Y: =395
+        ZIndex: =11
+
+    Label3_6 As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =20
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="400g de Contra Filé à parmegiana, acompanha arroz e salada (individual)"
+        Width: =547
+        X: =280
+        Y: =476
+        ZIndex: =12
+
+    "'PREÇO CONTRA F' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="89,00"
+        Width: =211
+        X: =827
+        Y: =433
+        ZIndex: =13
+
+    "'PREÇO LAGARTO' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="89,00"
+        Width: =211
+        X: =827
+        Y: =621
+        ZIndex: =14
+
+    "'LAGARTO AO MOLHO' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =96
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="LAGARTO AO MOLHO"
+        Width: =593
+        X: =280
+        Y: =582
+        ZIndex: =15
+
+    Label3_7 As Rótulo:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =20
+        Height: =87
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="400g de Lagarto ao Molho Madeira, acompanha arroz e salada (individual)"
+        Width: =547
+        X: =280
+        Y: =649
+        ZIndex: =16
+
+    "'PICANHA ASSADA' As Rótulo":
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =30
+        Height: =96
+        PCFTeamsTheme: =TeamsTheme.Default
+        Text: ="PICANHA ASSADA"
+        Width: =410
+        X: =280
+        Y: =1
+        ZIndex: =17
+
+    Icon1_5 As icon.ColorPicker:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =101
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ColorPicker
+        OnSelect: |-
+            =Collect(ColectionProduto,{Produto:"Picanha Assada",Valor:109})
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =76
+        X: =1038
+        Y: =10
+        ZIndex: =18
+
+    Icon4_2 As icon.ArrowLeft:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =80
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Navigate(MENU,ScreenTransition.Fade)
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =75
+        X: =30
+        Y: =660
+        ZIndex: =19
+
+    Icon1_26 As icon.DetailList:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(243, 242, 241, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        Height: =77
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.DetailList
+        OnSelect: =Navigate(PEDIDO,ScreenTransition.CoverRight)
+        PaddingBottom: =3
+        PaddingLeft: =3
+        PaddingRight: =3
+        PaddingTop: =3
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(98, 100, 167, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =89
+        X: =1250
+        Y: =659
+        ZIndex: =20
+
